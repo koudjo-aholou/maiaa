@@ -43,7 +43,7 @@ const AllTasks = (props: Props) => {
           '⚙️ Redux slice Generator: build a tool that automaticly generates redux slices including reducers/actions/selectors',
           '✨ Integration: make it shine',
           '🔎 Search: enable search on appointment, practitioner or patient. The solution can either be front-end only or a mix of front-end and back-end',
-          `🎉 Something else that we didn't think of`,
+          `🎉 User cannot submit a form when Practicioner has already an appointment at the same Date and Hour`,
         ]}
         expected={2}
         name="tasks-bonus"

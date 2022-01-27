@@ -46,6 +46,15 @@ const Home = () => {
           </div>
         </NextLink>
       </Section>
+      <Section name="appointments" title="Technical test">
+        <NextLink href="/technicalTest">
+          <div className="cta">
+            <p>
+              <Link>Koudjo AHOLOU - Technical Test</Link>
+            </p>
+          </div>
+        </NextLink>
+      </Section>
     </div>
   );
 };

@@ -12,3 +12,12 @@ export const formatDateRange = (range: Range) => {
   const { from, to } = range;
   return `${formatDate(from)} ${formatTime(from)} - ${formatTime(to)}`;
 };
+
+export const formatYearsMonthDate = (date: string | Date, option?: string) => {
+  switch (option) {
+    case 'HHMM':
+      return format(new Date(date), 'HH:mm a');
+    default:
+      return format(new Date(date), DATE_FORMAT);
+  }
+};

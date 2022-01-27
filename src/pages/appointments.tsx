@@ -1,5 +1,3 @@
-import AppointmentForm from 'components/AppointmentForm';
-import AppointmentList from 'components/AppointmentList';
 import Section from 'components/Section';
 import AllTasks from 'components/AllTasks';
 
@@ -45,14 +43,14 @@ const AppointmentsPage = () => {
           title="Appointment Form"
           className="appointment__form"
         >
-          <AppointmentForm />
+          <span>src/components/AppointmentForm.tsx</span>
         </Section>
         <Section
           name="appointment-list"
           title="Appointment List"
           className="appointment__list"
         >
-          <AppointmentList />
+          <span>/src/components/AppointmentList.tsx</span>
         </Section>
       </div>
     </div>

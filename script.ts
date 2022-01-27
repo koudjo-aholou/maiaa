@@ -18,7 +18,7 @@ function randomDate(inFuture = false) {
   const date = new Date();
   const year = inFuture
     ? randomIntFromInterval(2022, 2023)
-    : randomIntFromInterval(2019, 2020);
+    : randomIntFromInterval(2022, 2022);
   const month = randomIntFromInterval(0, 11);
   const day = randomIntFromInterval(1, 28);
   const hour = randomIntFromInterval(0, 23);

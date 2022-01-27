@@ -1,0 +1,302 @@
+[
+  {
+    "id": 3601,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T22:30:00.000Z",
+    "endDate": "2022-09-19T22:45:00.000Z"
+  },
+  {
+    "id": 3605,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T22:45:00.000Z",
+    "endDate": "2022-09-19T23:00:00.000Z"
+  },
+  {
+    "id": 3607,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T23:00:00.000Z",
+    "endDate": "2022-09-19T23:15:00.000Z"
+  },
+  {
+    "id": 3609,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T23:15:00.000Z",
+    "endDate": "2022-09-19T23:30:00.000Z"
+  },
+  {
+    "id": 3611,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T23:30:00.000Z",
+    "endDate": "2022-09-19T23:45:00.000Z"
+  },
+  {
+    "id": 3613,
+    "practitionerId": 92,
+    "startDate": "2022-09-19T23:45:00.000Z",
+    "endDate": "2022-09-20T00:00:00.000Z"
+  },
+  {
+    "id": 3615,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T00:00:00.000Z",
+    "endDate": "2022-09-20T00:15:00.000Z"
+  },
+  {
+    "id": 3617,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T00:15:00.000Z",
+    "endDate": "2022-09-20T00:30:00.000Z"
+  },
+  {
+    "id": 3619,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T00:30:00.000Z",
+    "endDate": "2022-09-20T00:45:00.000Z"
+  },
+  {
+    "id": 3621,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T00:45:00.000Z",
+    "endDate": "2022-09-20T01:00:00.000Z"
+  },
+  {
+    "id": 3623,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T22:30:00.000Z",
+    "endDate": "2022-09-20T22:45:00.000Z"
+  },
+  {
+    "id": 3625,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T22:45:00.000Z",
+    "endDate": "2022-09-20T23:00:00.000Z"
+  },
+  {
+    "id": 3627,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T23:00:00.000Z",
+    "endDate": "2022-09-20T23:15:00.000Z"
+  },
+  {
+    "id": 3629,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T23:15:00.000Z",
+    "endDate": "2022-09-20T23:30:00.000Z"
+  },
+  {
+    "id": 3631,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T23:30:00.000Z",
+    "endDate": "2022-09-20T23:45:00.000Z"
+  },
+  {
+    "id": 3633,
+    "practitionerId": 92,
+    "startDate": "2022-09-20T23:45:00.000Z",
+    "endDate": "2022-09-21T00:00:00.000Z"
+  },
+  {
+    "id": 3635,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T00:00:00.000Z",
+    "endDate": "2022-09-21T00:15:00.000Z"
+  },
+  {
+    "id": 3637,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T00:15:00.000Z",
+    "endDate": "2022-09-21T00:30:00.000Z"
+  },
+  {
+    "id": 3639,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T00:30:00.000Z",
+    "endDate": "2022-09-21T00:45:00.000Z"
+  },
+  {
+    "id": 3641,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T00:45:00.000Z",
+    "endDate": "2022-09-21T01:00:00.000Z"
+  },
+  {
+    "id": 3643,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T22:30:00.000Z",
+    "endDate": "2022-09-21T22:45:00.000Z"
+  },
+  {
+    "id": 3645,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T22:45:00.000Z",
+    "endDate": "2022-09-21T23:00:00.000Z"
+  },
+  {
+    "id": 3647,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T23:00:00.000Z",
+    "endDate": "2022-09-21T23:15:00.000Z"
+  },
+  {
+    "id": 3649,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T23:15:00.000Z",
+    "endDate": "2022-09-21T23:30:00.000Z"
+  },
+  {
+    "id": 3651,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T23:30:00.000Z",
+    "endDate": "2022-09-21T23:45:00.000Z"
+  },
+  {
+    "id": 3653,
+    "practitionerId": 92,
+    "startDate": "2022-09-21T23:45:00.000Z",
+    "endDate": "2022-09-22T00:00:00.000Z"
+  },
+  {
+    "id": 3655,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T00:00:00.000Z",
+    "endDate": "2022-09-22T00:15:00.000Z"
+  },
+  {
+    "id": 3657,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T00:15:00.000Z",
+    "endDate": "2022-09-22T00:30:00.000Z"
+  },
+  {
+    "id": 3659,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T00:30:00.000Z",
+    "endDate": "2022-09-22T00:45:00.000Z"
+  },
+  {
+    "id": 3661,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T00:45:00.000Z",
+    "endDate": "2022-09-22T01:00:00.000Z"
+  },
+  {
+    "id": 3663,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T22:30:00.000Z",
+    "endDate": "2022-09-22T22:45:00.000Z"
+  },
+  {
+    "id": 3665,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T22:45:00.000Z",
+    "endDate": "2022-09-22T23:00:00.000Z"
+  },
+  {
+    "id": 3667,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T23:00:00.000Z",
+    "endDate": "2022-09-22T23:15:00.000Z"
+  },
+  {
+    "id": 3669,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T23:15:00.000Z",
+    "endDate": "2022-09-22T23:30:00.000Z"
+  },
+  {
+    "id": 3671,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T23:30:00.000Z",
+    "endDate": "2022-09-22T23:45:00.000Z"
+  },
+  {
+    "id": 3673,
+    "practitionerId": 92,
+    "startDate": "2022-09-22T23:45:00.000Z",
+    "endDate": "2022-09-23T00:00:00.000Z"
+  },
+  {
+    "id": 3675,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T00:00:00.000Z",
+    "endDate": "2022-09-23T00:15:00.000Z"
+  },
+  {
+    "id": 3677,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T00:15:00.000Z",
+    "endDate": "2022-09-23T00:30:00.000Z"
+  },
+  {
+    "id": 3679,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T00:30:00.000Z",
+    "endDate": "2022-09-23T00:45:00.000Z"
+  },
+  {
+    "id": 3681,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T00:45:00.000Z",
+    "endDate": "2022-09-23T01:00:00.000Z"
+  },
+  {
+    "id": 3683,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T22:30:00.000Z",
+    "endDate": "2022-09-23T22:45:00.000Z"
+  },
+  {
+    "id": 3685,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T22:45:00.000Z",
+    "endDate": "2022-09-23T23:00:00.000Z"
+  },
+  {
+    "id": 3687,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T23:00:00.000Z",
+    "endDate": "2022-09-23T23:15:00.000Z"
+  },
+  {
+    "id": 3689,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T23:15:00.000Z",
+    "endDate": "2022-09-23T23:30:00.000Z"
+  },
+  {
+    "id": 3691,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T23:30:00.000Z",
+    "endDate": "2022-09-23T23:45:00.000Z"
+  },
+  {
+    "id": 3693,
+    "practitionerId": 92,
+    "startDate": "2022-09-23T23:45:00.000Z",
+    "endDate": "2022-09-24T00:00:00.000Z"
+  },
+  {
+    "id": 3695,
+    "practitionerId": 92,
+    "startDate": "2022-09-24T00:00:00.000Z",
+    "endDate": "2022-09-24T00:15:00.000Z"
+  },
+  {
+    "id": 3697,
+    "practitionerId": 92,
+    "startDate": "2022-09-24T00:15:00.000Z",
+    "endDate": "2022-09-24T00:30:00.000Z"
+  },
+  {
+    "id": 3703,
+    "practitionerId": 92,
+    "startDate": "2022-09-24T00:30:00.000Z",
+    "endDate": "2022-09-24T00:45:00.000Z"
+  },
+  {
+    "id": 3705,
+    "practitionerId": 92,
+    "startDate": "2022-09-24T00:45:00.000Z",
+    "endDate": "2022-09-24T01:00:00.000Z"
+  }
+]

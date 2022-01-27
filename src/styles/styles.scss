@@ -2,6 +2,32 @@
 /* HTML Tag base */
 /* ############################################################ */
 
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
 address,
 body,
 div,
@@ -652,4 +678,196 @@ section {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+
+.container {
+  background-color: #56bac6;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+article.container h2 {
+  @include for-phone-only {
+    padding: 2rem;
+  }
+}
+
+.leftWrapper {
+  width: 30%;
+  margin: 5rem 2rem 5rem;
+  @include for-phone-only {
+    background-color: red;
+    width: 100vw;
+  }
+}
+
+.appointmentContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  width: 50vw;
+  @include for-phone-only {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  aside.wrapperAppointment {
+    min-width: 40rem;
+    margin: 2rem;
+    @include for-phone-only {
+      width: 80%;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
+  }
+  .wrapperAppointmentList {
+    width: 40vw;
+    margin: 2rem;
+    @include for-phone-only {
+      width: 95%;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-self: center;
+    }
+
+    section {
+      background-color: #e35e79;
+    }
+  }
+}
+
+.wrapperBlock {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  p {
+    color: #fff;
+    margin: 0 1rem 0 1rem;
+    span {
+      color: #fff;
+      font-weight: bold;
+    }
+    span + span {
+      padding: 0.4rem;
+    }
+  }
+  .label {
+    background-color: #4ba0aa;
+    padding: 0.2rem;
+  }
+}
+.wrapperCol {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.wrapperCol select,
+.quickyBtn {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #5ba0aa, #4ba0aa 33%);
+}
+
+.space {
+  margin-top: 1rem;
+}
+.spaceBott {
+  margin-bottom: 1rem;
+}
+
+.datePickerCustom,
+.datePickerCustom.react-datepicker-ignore-onclickoutside {
+  padding: 1rem;
+  width: 84%;
+}
+
+.submitBtnn {
+  background-color: #807d7d;
+  border-radius: 28px;
+  border: 1px solid #807d7d;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  min-width: 15ch;
+  max-width: 30ch;
+
+  &:hover {
+    background-color: #5ba0aa;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.centerWrapper {
+  display: flex;
+  justify-content: center;
+}
+.appointmentFormWrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+  margin: 2rem;
+  height: fit-content;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: #fff;
+  color: #64c9c3;
+
+  @include for-phone-only {
+    padding: 0.4rem;
+  }
+}
+
+.wrapperLoading {
+  align-self: center;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 2s linear infinite;
+  @-moz-keyframes spin {
+    100% {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.errorText {
+  padding-left: 0.5rem;
+  color: red;
 }
