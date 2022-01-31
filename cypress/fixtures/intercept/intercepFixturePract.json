@@ -16,5 +16,23 @@
     "firstName": "Maritza",
     "lastName": "Hauck",
     "speciality": "Chirurgien"
+  },
+  {
+    "id": 97,
+    "firstName": "Asta",
+    "lastName": "Mertz",
+    "speciality": "Médecin Généraliste"
+  },
+  {
+    "id": 96,
+    "firstName": "Gon",
+    "lastName": "Beer",
+    "speciality": "Kinésithérapeute"
+  },
+  {
+    "id": 95,
+    "firstName": "Guts",
+    "lastName": "Hauck",
+    "speciality": "Chirurgien"
   }
 ]

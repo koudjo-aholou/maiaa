@@ -687,11 +687,19 @@ section {
   flex-flow: row wrap;
   justify-content: center;
   min-height: 100vh;
+  @include for-phone-only {
+    min-height: 50vh;
+  }
+
+  @include for-tablet-portrait-up {
+    min-height: 50vh;
+  }
 }
 
 article.container h2 {
   @include for-phone-only {
     padding: 2rem;
+    min-height: 10vh;
   }
 }
 

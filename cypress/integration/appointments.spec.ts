@@ -1,5 +1,5 @@
 describe('Appointment page - technical Test', () => {
-  before(() => {
+  it('should display all the element of the form', () => {
     cy.intercept('GET', '/api/patients', {
       fixture: 'intercept/interceptFixturePat.json',
     }).as('patientsList');
@@ -9,8 +9,7 @@ describe('Appointment page - technical Test', () => {
     cy.intercept('GET', `/api/availabilities?practitionerId=92`, {
       fixture: 'intercept/intercepFixturePractId.json',
     }).as('practitionerId');
-  });
-  it('should display all the element of the form', () => {
+
     cy.visit('http://localhost:3000/technicalTest').then(() => {
       cy.get(`[data-testid="patientSelect"]`, {
         timeout: 22000,
@@ -46,15 +45,33 @@ describe('Appointment page - technical Test', () => {
   });
 
   it('should display all the element of an Appointment', () => {
+    cy.intercept('GET', '/api/patients', {
+      fixture: 'intercept/interceptFixturePat.json',
+    }).as('patientsList');
+    cy.intercept('GET', `/api/practitioners`, {
+      fixture: 'intercept/intercepFixturePract.json',
+    }).as('practitionersList');
     cy.intercept('GET', `/api/appointments`, {
       fixture: 'intercept/appointments.json',
     }).as('appointmentsList');
 
-    cy.get(`[data-testid="appointmentList"]`).should('be.visible');
-    cy.get(`[data-testid="appointmentListPractName"]`).should('be.visible');
-    cy.get(`[data-testid="appointmentListPractSpe"]`).should('be.visible');
-    cy.get(`[data-testid="appointmentListDate"]`).should('be.visible');
-    cy.get(`[data-testid="appointmentListHours"]`).should('be.visible');
-    cy.get(`[data-testid="appointmentListPatientName"]`).should('be.visible');
+    cy.get(`[data-testid="appointmentList"]`, {
+      timeout: 22000,
+    }).should('be.visible');
+    cy.get(`[data-testid="appointmentListPractName"]`, {
+      timeout: 22000,
+    }).should('be.visible');
+    cy.get(`[data-testid="appointmentListPractSpe"]`, {
+      timeout: 22000,
+    }).should('be.visible');
+    cy.get(`[data-testid="appointmentListDate"]`, {
+      timeout: 22000,
+    }).should('be.visible');
+    cy.get(`[data-testid="appointmentListHours"]`, {
+      timeout: 22000,
+    }).should('be.visible');
+    cy.get(`[data-testid="appointmentListPatientName"]`, {
+      timeout: 22000,
+    }).should('be.visible');
   });
 });
